@@ -1,0 +1,16 @@
+msys2:
+nasm -f elf32 sys/boot/boot.asm -o sys/build/boot.o
+
+cmd:
+gcc -m32 -c sys/kernel/header.c -o sys/build/krnl.o -ffreestanding -fno-stack-protector -fno-builtin -nostdlib
+
+wsl ubunta:
+ld -m elf_i386 -T link.ld -o sys/build/kernel sys/build/boot.o sys/build/krnl.o
+
+ЗАПУСК:
+"E:\sistem\virtual\qemu\qemu-system-i386.exe" -kernel "E:\pr_CPP\oc\sys\build\kernel"
+
+
+
+ЦЕЛИ:
+Разобраться в link, почеум все-таки не работает на win
