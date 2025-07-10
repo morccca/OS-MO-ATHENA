@@ -14,3 +14,5 @@ ld -m elf_i386 -T link.ld -o sys/build/kernel sys/build/boot.o sys/build/krnl.o
 
 ЦЕЛИ:
 Разобраться в link, почеум все-таки не работает на win
+loader
+расширить команды

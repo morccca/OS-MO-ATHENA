@@ -1,0 +1,989 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+      nasm: error: unrecognised option `-V'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+      nasm: error: unrecognised option `-V'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+      nasm: error: unrecognised option `-q'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft":
+      nasm: error: unrecognised option `-?'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+      Usage: /usr/bin/nasm [-@ response_file] [options...] [--] filename
+             /usr/bin/nasm -v (or --v)
+      
+      Options (values in brackets indicate defaults):
+      
+          -h            show this text and exit (also --help)
+          -v (or --v)   print the NASM version number and exit
+          -@ file       response file; one command line option per line
+      
+          -o outfile    write output to outfile
+          --keep-all    output files will not be removed even if an error happens
+      
+          -Xformat      specify error reporting format (gnu or vc)
+          -s            redirect error messages to stdout
+          -Zfile        redirect error messages to file
+      
+          -M            generate Makefile dependencies on stdout
+          -MG           d:o, missing files assumed generated
+          -MF file      set Makefile dependency file
+          -MD file      assemble and generate dependencies
+          -MT file      dependency target name
+          -MQ file      dependency target name (quoted)
+          -MP           emit phony targets
+      
+          -f format     select output file format
+             bin                  Flat raw binary (MS-DOS, embedded, ...) [default]
+             ith                  Intel Hex encoded flat binary
+             srec                 Motorola S-records encoded flat binary
+             aout                 Linux a.out
+             aoutb                NetBSD/FreeBSD a.out
+             coff                 COFF (i386) (DJGPP, some Unix variants)
+             elf32                ELF32 (i386) (Linux, most Unix variants)
+             elf64                ELF64 (x86-64) (Linux, most Unix variants)
+             elfx32               ELFx32 (ELF32 for x86-64) (Linux)
+             as86                 as86 (bin86/dev86 toolchain)
+             obj                  Intel/Microsoft OMF (MS-DOS, OS/2, Win16)
+             win32                Microsoft extended COFF for Win32 (i386)
+             win64                Microsoft extended COFF for Win64 (x86-64)
+             ieee                 IEEE-695 (LADsoft variant) object file format
+             macho32              Mach-O i386 (Mach, including MacOS X and variants)
+             macho64              Mach-O x86-64 (Mach, including MacOS X and variants)
+             dbg                  Trace of all info passed to output stage
+             elf                  Legacy alias for "elf32"
+             macho                Legacy alias for "macho32"
+             win                  Legacy alias for "win32"
+      
+          -g            generate debugging information
+          -F format     select a debugging format (output format dependent)
+          -gformat      same as -g -F format
+             elf32:     dwarf     ELF32 (i386) dwarf (newer) [default]
+                        stabs     ELF32 (i386) stabs (older)
+             elf64:     dwarf     ELF64 (x86-64) dwarf (newer) [default]
+                        stabs     ELF64 (x86-64) stabs (older)
+             elfx32:    dwarf     ELFx32 (x86-64) dwarf (newer) [default]
+                        stabs     ELFx32 (x86-64) stabs (older)
+             obj:       borland   Borland Debug Records [default]
+             win32:     cv8       Codeview 8+ [default]
+             win64:     cv8       Codeview 8+ [default]
+             ieee:      ladsoft   LADsoft Debug Records [default]
+             macho32:   dwarf     Mach-O i386 dwarf for Darwin/MacOS [default]
+             macho64:   dwarf     Mach-O x86-64 dwarf for Darwin/MacOS [default]
+             dbg:       debug     Trace of all info passed to debug stage [default]
+      
+          -l listfile   write listing to a list file
+          -Lflags...    add optional information to the list file
+             -Lb        show builtin macro packages (standard and %use)
+             -Ld        show byte and repeat counts in decimal, not hex
+             -Le        show the preprocessed output
+             -Lf        ignore .nolist (force output)
+             -Lm        show multi-line macro calls with expanded parameters
+             -Lp        output a list file every pass, in case of errors
+             -Ls        show all single-line macro definitions
+             -Lw        flush the output after every line (very slow!)
+             -L+        enable all listing options except -Lw (very verbose!)
+      
+          -Oflags...    optimize opcodes, immediates and branch offsets
+             -O0        no optimization
+             -O1        minimal optimization
+             -Ox        multipass optimization (default)
+             -Ov        display the number of passes executed at the end
+          -t            assemble in limited SciTech TASM compatible mode
+      
+          -E (or -e)    preprocess only (writes output to stdout by default)
+          -a            don't preprocess (assemble only)
+          -Ipath        add a pathname to the include file path
+          -Pfile        pre-include a file (also --include)
+          -Dmacro[=str] pre-define a macro
+          -Umacro       undefine a macro
+         --pragma str   pre-executes a specific %%pragma
+         --before str   add line (usually a preprocessor statement) before the input
+         --no-line      ignore %line directives in input
+      
+         --prefix str   prepend the given string to the names of all extern,
+                        common and global symbols (also --gprefix)
+         --suffix str   append the given string to the names of all extern,
+                        common and global symbols (also --gprefix)
+         --lprefix str  prepend the given string to local symbols
+         --lpostfix str append the given string to local symbols
+      
+         --reproducible attempt to produce run-to-run identical output
+      
+          -w+x          enable warning x (also -Wx)
+          -w-x          disable warning x (also -Wno-x)
+          -w[+-]error   promote all warnings to errors (also -Werror)
+          -w[+-]error=x promote warning x to errors (also -Werror=x)
+             all                  all possible warnings
+             db-empty             no operand for data declaration [on]
+             ea                   all warnings prefixed with "ea-"
+             ea-absolute          absolute address cannot be RIP-relative [on]
+             ea-dispsize          displacement size ignored on absolute address [on]
+             float                all warnings prefixed with "float-"
+             float-denorm         floating point denormal [off]
+             float-overflow       floating point overflow [on]
+             float-toolong        too many digits in floating-point number [on]
+             float-underflow      floating point underflow [off]
+             forward              forward reference may have unpredictable results [on]
+             label                all warnings prefixed with "label-"
+             label-orphan         labels alone on lines without trailing : [on]
+             label-redef          label redefined to an identical value [off]
+             label-redef-late     label (re)defined during code generation [error]
+             number-overflow      numeric constant does not fit [on]
+             obsolete             all warnings prefixed with "obsolete-"
+             obsolete-nop         instruction obsolete and is a noop on the target CPU [on]
+             obsolete-removed     instruction obsolete and removed on the target CPU [on]
+             obsolete-valid       instruction obsolete but valid on the target CPU [on]
+             phase                phase error during stabilization [off]
+             pp                   all warnings prefixed with "pp-"
+             pp-else              all warnings prefixed with "pp-else-"
+             pp-else-elif         %elif after %else [on]
+             pp-else-else         %else after %else [on]
+             pp-empty-braces      empty %{} construct [on]
+             pp-environment       nonexistent environment variable [on]
+             pp-macro             all warnings prefixed with "pp-macro-"
+             pp-macro-def         all warnings prefixed with "pp-macro-def-"
+             pp-macro-def-case-single single-line macro defined both case sensitive and insensitive [on]
+             pp-macro-def-greedy-single single-line macro [on]
+             pp-macro-def-param-single single-line macro defined with and without parameters [error]
+             pp-macro-defaults    macros with more default than optional parameters [on]
+             pp-macro-params      all warnings prefixed with "pp-macro-params-"
+             pp-macro-params-legacy improperly calling multi-line macro for legacy support [on]
+             pp-macro-params-multi multi-line macro calls with wrong parameter count [on]
+             pp-macro-params-single single-line macro calls with wrong parameter count [on]
+             pp-macro-redef-multi redefining multi-line macro [on]
+             pp-open              all warnings prefixed with "pp-open-"
+             pp-open-braces       unterminated %{...} [on]
+             pp-open-brackets     unterminated %[...] [on]
+             pp-open-string       unterminated string [on]
+             pp-rep-negative      regative %rep count [on]
+             pp-sel-range         %sel() argument out of range [on]
+             pp-trailing          trailing garbage ignored [on]
+             pragma               all warnings prefixed with "pragma-"
+             pragma-bad           malformed %pragma [off]
+             pragma-empty         empty %pragma directive [off]
+             pragma-na            %pragma not applicable to this compilation [off]
+             pragma-unknown       unknown %pragma facility or directive [off]
+             prefix               all warnings prefixed with "prefix-"
+             prefix-bnd           invalid BND prefix [on]
+             prefix-hle           invalid HLE prefix [on]
+             prefix-lock          all warnings prefixed with "prefix-lock-"
+             prefix-lock-error    LOCK prefix on unlockable instruction [on]
+             prefix-lock-xchg     superfluous LOCK prefix on XCHG instruction [on]
+             prefix-opsize        invalid operand size prefix [on]
+             prefix-seg           segment prefix ignored in 64-bit mode [on]
+             ptr                  non-NASM keyword used in other assemblers [on]
+             regsize              register size specification ignored [on]
+             reloc                all warnings prefixed with "reloc-"
+             reloc-abs            all warnings prefixed with "reloc-abs-"
+             reloc-abs-byte       8-bit absolute section-crossing relocation [off]
+             reloc-abs-dword      32-bit absolute section-crossing relocation [off]
+             reloc-abs-qword      64-bit absolute section-crossing relocation [off]
+             reloc-abs-word       16-bit absolute section-crossing relocation [off]
+             reloc-rel            all warnings prefixed with "reloc-rel-"
+             reloc-rel-byte       8-bit relative section-crossing relocation [off]
+             reloc-rel-dword      32-bit relative section-crossing relocation [off]
+             reloc-rel-qword      64-bit relative section-crossing relocation [off]
+             reloc-rel-word       16-bit relative section-crossing relocation [off]
+             unknown-warning      unknown warning in -W/-w or warning directive [off]
+             user                 %warning directives [on]
+             warn-stack-empty     warning stack empty [on]
+             zeroing              RESx in initialized section becomes zero [on]
+             zext-reloc           relocation zero-extended to match output format [on]
+             other                any warning not specifically mentioned above [on]
+      
+         --limit-X val  set execution limit X
+             passes               total number of passes [unlimited]
+             stalled-passes       number of passes without forward progress [1000]
+             macro-levels         levels of macro expansion [10000]
+             macro-tokens         tokens processed during single-lime macro expansion [10000000]
+             mmacros              multi-line macros before final return [100000]
+             rep                  %rep count [1000000]
+             eval                 expression evaluation descent [2032]
+             lines                total source lines processed [2000000000]
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+      nasm: fatal: no input file specified
+      Type /usr/bin/nasm -h for help.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+      nasm: fatal: no input file specified
+      Type /usr/bin/nasm -h for help.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1230 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+      NASM version 2.16.03 compiled on Jun  3 2024
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/comp/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/pr_CPP/oc/sys/build/CMakeFiles/4.0.0-rc3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/comp/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/pr_CPP/oc/sys/build/CMakeFiles/4.0.0-rc3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f"
+      binary: "E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f'
+        
+        Run Build Command(s): E:/sistem/cmake/bin/cmake.exe -E env VERBOSE=1 E:/comp/mingw64/bin/mingw32-make.exe -f Makefile cmTC_62d68/fast
+        E:/comp/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_62d68.dir\\build.make CMakeFiles/cmTC_62d68.dir/build
+        mingw32-make[1]: Entering directory 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f'
+        Building C object CMakeFiles/cmTC_62d68.dir/CMakeCCompilerABI.c.obj
+        E:\\comp\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj -c E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\comp\\mingw64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_62d68.dir\\'
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1.exe -quiet -v -iprefix E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_62d68.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\morcc\\AppData\\Local\\Temp\\ccvr4PUb.s
+        GNU C23 (Rev5, Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"
+        ignoring nonexistent directory "C:/a/msys64/mingw64/include"
+        ignoring nonexistent directory "/mingw64/include"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"
+        ignoring nonexistent directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/a/msys64/mingw64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 8247c9d569a5c4fff56144c6207ad95e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_62d68.dir\\'
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj C:\\Users\\morcc\\AppData\\Local\\Temp\\ccvr4PUb.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_62d68.exe
+        E:\\sistem\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_62d68.dir\\link.txt --verbose=1
+        E:\\sistem\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_62d68.dir/objects.a
+        E:\\comp\\usr\\bin\\ar.exe qc CMakeFiles\\cmTC_62d68.dir/objects.a @CMakeFiles\\cmTC_62d68.dir\\objects1.rsp
+        E:\\comp\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_62d68.dir/objects.a -Wl,--no-whole-archive -o cmTC_62d68.exe -Wl,--out-implib,libcmTC_62d68.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=E:\\comp\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62d68.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_62d68.'
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccmUgT7l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_62d68.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_62d68.dir/objects.a --no-whole-archive --out-implib libcmTC_62d68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        collect2 version 15.1.0
+        E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccmUgT7l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_62d68.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_62d68.dir/objects.a --no-whole-archive --out-implib libcmTC_62d68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62d68.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_62d68.'
+        mingw32-make[1]: Leaving directory 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:189 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        end of search list found
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include] ==> [E:/comp/mingw64/include]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        implicit include dirs: [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include;E:/comp/mingw64/include;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/sistem/cmake/bin/cmake.exe -E env VERBOSE=1 E:/comp/mingw64/bin/mingw32-make.exe -f Makefile cmTC_62d68/fast]
+        ignore line: [E:/comp/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_62d68.dir\\build.make CMakeFiles/cmTC_62d68.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-tkmh8f']
+        ignore line: [Building C object CMakeFiles/cmTC_62d68.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [E:\\comp\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj -c E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\comp\\mingw64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_62d68.dir\\']
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1.exe -quiet -v -iprefix E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_62d68.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\morcc\\AppData\\Local\\Temp\\ccvr4PUb.s]
+        ignore line: [GNU C23 (Rev5  Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/mingw64/include"]
+        ignore line: [ignoring nonexistent directory "/mingw64/include"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/mingw64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 8247c9d569a5c4fff56144c6207ad95e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_62d68.dir\\']
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj C:\\Users\\morcc\\AppData\\Local\\Temp\\ccvr4PUb.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_62d68.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_62d68.exe]
+        ignore line: [E:\\sistem\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_62d68.dir\\link.txt --verbose=1]
+        ignore line: [E:\\sistem\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_62d68.dir/objects.a]
+        ignore line: [E:\\comp\\usr\\bin\\ar.exe qc CMakeFiles\\cmTC_62d68.dir/objects.a @CMakeFiles\\cmTC_62d68.dir\\objects1.rsp]
+        ignore line: [E:\\comp\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_62d68.dir/objects.a -Wl --no-whole-archive -o cmTC_62d68.exe -Wl --out-implib libcmTC_62d68.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\comp\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62d68.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_62d68.']
+        link line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccmUgT7l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_62d68.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_62d68.dir/objects.a --no-whole-archive --out-implib libcmTC_62d68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccmUgT7l.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_62d68.exe] ==> ignore
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc] ==> dir [E:/comp/mingw64/bin/../lib/gcc]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_62d68.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_62d68.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccmUgT7l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_62d68.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_62d68.dir/objects.a --no-whole-archive --out-implib libcmTC_62d68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        linker tool for 'C': E:/comp/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> [E:/comp/mingw64/lib/crt2.o]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> [E:/comp/mingw64/lib/default-manifest.o]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc] ==> [E:/comp/mingw64/lib/gcc]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/comp/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> [E:/comp/mingw64/lib]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/comp/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> [E:/comp/mingw64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [E:/comp/mingw64/lib/crt2.o;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;E:/comp/mingw64/lib/default-manifest.o;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0;E:/comp/mingw64/lib/gcc;E:/comp/mingw64/x86_64-w64-mingw32/lib;E:/comp/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Running the C compiler's linker: "E:/comp/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o"
+      binary: "E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o'
+        
+        Run Build Command(s): E:/sistem/cmake/bin/cmake.exe -E env VERBOSE=1 E:/comp/mingw64/bin/mingw32-make.exe -f Makefile cmTC_926c3/fast
+        E:/comp/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_926c3.dir\\build.make CMakeFiles/cmTC_926c3.dir/build
+        mingw32-make[1]: Entering directory 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o'
+        Building CXX object CMakeFiles/cmTC_926c3.dir/CMakeCXXCompilerABI.cpp.obj
+        E:\\comp\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj -c E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\comp\\mingw64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_926c3.dir\\'
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe -quiet -v -iprefix E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_926c3.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\morcc\\AppData\\Local\\Temp\\ccqOJCL6.s
+        GNU C++17 (Rev5, Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"
+        ignoring nonexistent directory "C:/a/msys64/mingw64/include"
+        ignoring nonexistent directory "/mingw64/include"
+        ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"
+        ignoring nonexistent directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/a/msys64/mingw64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: a938b2bbaf31207db78230ff2ee80ad3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_926c3.dir\\'
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\morcc\\AppData\\Local\\Temp\\ccqOJCL6.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_926c3.exe
+        E:\\sistem\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_926c3.dir\\link.txt --verbose=1
+        E:\\sistem\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_926c3.dir/objects.a
+        E:\\comp\\usr\\bin\\ar.exe qc CMakeFiles\\cmTC_926c3.dir/objects.a @CMakeFiles\\cmTC_926c3.dir\\objects1.rsp
+        E:\\comp\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_926c3.dir/objects.a -Wl,--no-whole-archive -o cmTC_926c3.exe -Wl,--out-implib,libcmTC_926c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=E:\\comp\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;E:/comp/mingw64/bin/../lib/gcc/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_926c3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_926c3.'
+         E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccuCIPlg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_926c3.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_926c3.dir/objects.a --no-whole-archive --out-implib libcmTC_926c3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        collect2 version 15.1.0
+        E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccuCIPlg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_926c3.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_926c3.dir/objects.a --no-whole-archive --out-implib libcmTC_926c3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_926c3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_926c3.'
+        mingw32-make[1]: Leaving directory 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:189 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+          add: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        end of search list found
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0] ==> [E:/comp/mingw64/include/c++/15.1.0]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32] ==> [E:/comp/mingw64/include/c++/15.1.0/x86_64-w64-mingw32]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward] ==> [E:/comp/mingw64/include/c++/15.1.0/backward]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include] ==> [E:/comp/mingw64/include]
+        collapse include dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        implicit include dirs: [E:/comp/mingw64/include/c++/15.1.0;E:/comp/mingw64/include/c++/15.1.0/x86_64-w64-mingw32;E:/comp/mingw64/include/c++/15.1.0/backward;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include;E:/comp/mingw64/include;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/sistem/cmake/bin/cmake.exe -E env VERBOSE=1 E:/comp/mingw64/bin/mingw32-make.exe -f Makefile cmTC_926c3/fast]
+        ignore line: [E:/comp/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_926c3.dir\\build.make CMakeFiles/cmTC_926c3.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/pr_CPP/oc/sys/build/CMakeFiles/CMakeScratch/TryCompile-zdb78o']
+        ignore line: [Building CXX object CMakeFiles/cmTC_926c3.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [E:\\comp\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj -c E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\comp\\mingw64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_926c3.dir\\']
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe -quiet -v -iprefix E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT E:\\sistem\\cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_926c3.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\morcc\\AppData\\Local\\Temp\\ccqOJCL6.s]
+        ignore line: [GNU C++17 (Rev5  Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/mingw64/include"]
+        ignore line: [ignoring nonexistent directory "/mingw64/include"]
+        ignore line: [ignoring duplicate directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "E:/comp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/mingw64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a938b2bbaf31207db78230ff2ee80ad3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_926c3.dir\\']
+        ignore line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\morcc\\AppData\\Local\\Temp\\ccqOJCL6.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_926c3.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_926c3.exe]
+        ignore line: [E:\\sistem\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_926c3.dir\\link.txt --verbose=1]
+        ignore line: [E:\\sistem\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_926c3.dir/objects.a]
+        ignore line: [E:\\comp\\usr\\bin\\ar.exe qc CMakeFiles\\cmTC_926c3.dir/objects.a @CMakeFiles\\cmTC_926c3.dir\\objects1.rsp]
+        ignore line: [E:\\comp\\mingw64\\bin\\g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_926c3.dir/objects.a -Wl --no-whole-archive -o cmTC_926c3.exe -Wl --out-implib libcmTC_926c3.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\comp\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_926c3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_926c3.']
+        link line: [ E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccuCIPlg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_926c3.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_926c3.dir/objects.a --no-whole-archive --out-implib libcmTC_926c3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccuCIPlg.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_926c3.exe] ==> ignore
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc] ==> dir [E:/comp/mingw64/bin/../lib/gcc]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_926c3.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_926c3.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o]
+          arg [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\morcc\\AppData\\Local\\Temp\\ccuCIPlg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_926c3.exe E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LE:/comp/mingw64/bin/../lib/gcc -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LE:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_926c3.dir/objects.a --no-whole-archive --out-implib libcmTC_926c3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        linker tool for 'CXX': E:/comp/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> [E:/comp/mingw64/lib/crt2.o]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> [E:/comp/mingw64/lib/default-manifest.o]
+        collapse obj [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc] ==> [E:/comp/mingw64/lib/gcc]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/comp/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> [E:/comp/mingw64/lib]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/comp/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/comp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> [E:/comp/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [E:/comp/mingw64/lib/crt2.o;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;E:/comp/mingw64/lib/default-manifest.o;E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [E:/comp/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0;E:/comp/mingw64/lib/gcc;E:/comp/mingw64/x86_64-w64-mingw32/lib;E:/comp/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/comp/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+...

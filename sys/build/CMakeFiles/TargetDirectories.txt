@@ -1,0 +1,7 @@
+E:/pr_CPP/oc/sys/build/CMakeFiles/kernel.elf.dir
+E:/pr_CPP/oc/sys/build/CMakeFiles/athena.dir
+E:/pr_CPP/oc/sys/build/CMakeFiles/clean-all.dir
+E:/pr_CPP/oc/sys/build/CMakeFiles/run.dir
+E:/pr_CPP/oc/sys/build/CMakeFiles/debug.dir
+E:/pr_CPP/oc/sys/build/CMakeFiles/edit_cache.dir
+E:/pr_CPP/oc/sys/build/CMakeFiles/rebuild_cache.dir

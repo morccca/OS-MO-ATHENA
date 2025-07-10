@@ -1,124 +1,87 @@
 [BITS 16]
 [ORG 0x7C00]
 
-start:
-    ; Очистить экран
-    mov ax, 0x0003
-    int 0x10
+; Настройка сегментов
+xor ax, ax
+mov ds, ax
+mov es, ax
+mov ss, ax
+mov sp, 0x7C00
+
+; Загрузка ядра с диска
+mov ah, 0x02    ; Функция чтения
+mov al, 10      ; Количество секторов для чтения
+mov ch, 0       ; Цилиндр
+mov cl, 2       ; Сектор (начинается с 1)
+mov dh, 0       ; Головка
+mov bx, 0x1000  ; ES:BX - куда загружать
+int 0x13
+jc disk_error
+
+; Переход в защищенный режим
+cli
+lgdt [gdt_descriptor]
+mov eax, cr0
+or eax, 0x1
+mov cr0, eax
+jmp CODE_SEG:protected_mode
+
+[BITS 32]
+protected_mode:
+    mov ax, DATA_SEG
+    mov ds, ax
+    mov es, ax
+    mov ss, ax
+    mov esp, 0x90000
     
-    ; Установить цвет фона 
-    mov ah, 0x06
-    mov al, 0x00
-    mov bh, 0x17    ; Белый текст 
-    mov cx, 0x0000
-    mov dx, 0x184F
-    int 0x10
-    
-    ; Заголовок ОС
-    mov dh, 3
-    mov dl, 30
-    call set_cursor
-    mov si, os_title
-    call print_string_color
-    
-    ; Версия
-    mov dh, 5
-    mov dl, 28
-    call set_cursor
-    mov si, version
-    call print_string_color
-    
-    ; Автор
-    mov dh, 6
-    mov dl, 27
-    call set_cursor
-    mov si, author
-    call print_string_color
-    
-    ; Описание
-    mov dh, 9
-    mov dl, 20
-    call set_cursor
-    mov si, desc1
-    call print_string_color
-    
-    mov dh, 10
-    mov dl, 22
-    call set_cursor
-    mov si, desc2
-    call print_string_color
-    
-    ; Статус загрузки
-    mov dh, 13
-    mov dl, 25
-    call set_cursor
-    mov si, loading
-    call print_string_color
-    
-    ; Системная информация
-    mov dh, 16
-    mov dl, 15
-    call set_cursor
-    mov si, sys_info1
-    call print_string_color
-    
-    mov dh, 17
-    mov dl, 15
-    call set_cursor
-    mov si, sys_info2
-    call print_string_color
-    
-    mov dh, 18
-    mov dl, 15
-    call set_cursor
-    mov si, sys_info3
-    call print_string_color
-    
-    mov dh, 21
-    mov dl, 20
-    call set_cursor
-    mov si, instruction
-    call print_string_color
-    
-    ; Бесконечный 
+    ; Переход к ядру
+    jmp 0x1000
+
+[BITS 16]
+disk_error:
+    mov si, error_msg
+    call print_string
     jmp $
 
-set_cursor:
-    mov ah, 0x02
-    mov bh, 0x00
-    int 0x10
-    ret
-
-print_string_color:
-    mov ah, 0x0E
-    mov bh, 0x00
-    mov bl, 0x0F    ; я/б
-.repeat:
+print_string:
     lodsb
-    cmp al, 0
-    je .done
+    or al, al
+    jz .done
+    mov ah, 0x0E
     int 0x10
-    jmp .repeat
+    jmp print_string
 .done:
     ret
 
-; Текстовые данные
-os_title    db 'ATHENA OS', 0
-version     db 'Version 1.0.0', 0
-author      db 'Created by Morcc', 0
+error_msg db "Disk error!", 0
 
-desc1       db 'Simple Operating System', 0
-desc2       db 'Assembly & C++ Edition', 0
+; GDT
+gdt_start:
+gdt_null:
+    dd 0x0
+    dd 0x0
+gdt_code:
+    dw 0xFFFF
+    dw 0x0
+    db 0x0
+    db 10011010b
+    db 11001111b
+    db 0x0
+gdt_data:
+    dw 0xFFFF
+    dw 0x0
+    db 0x0
+    db 10010010b
+    db 11001111b
+    db 0x0
+gdt_end:
 
-loading     db 'System Ready!', 0
+gdt_descriptor:
+    dw gdt_end - gdt_start - 1
+    dd gdt_start
 
-sys_info1   db 'Architecture: x86 (32-bit)', 0
-sys_info2   db 'Memory: Basic VGA Text Mode', 0
-sys_info3   db 'Status: Operational', 0
+CODE_SEG equ gdt_code - gdt_start
+DATA_SEG equ gdt_data - gdt_start
 
-instruction db 'Welcome to Athena OS!', 0
-
-; Заполнить до 510 байт ТАК КАК БОЛЬШЕ НЕЗЯ(
 times 510-($-$$) db 0
-; Сигнатура загрузочного сектора
 dw 0xAA55
