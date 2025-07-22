@@ -1,20 +1,8 @@
-#include "shell.h"
-
-int string_compare(const char* str1, const char* str2) 
-{
-    while (*str1 && *str2) {
-        if (*str1 != *str2) {
-            return *str1 - *str2;
-        }
-        str1++;
-        str2++;
-    }
-    return *str1 - *str2;
-}
+#include "../include/shell.h"
+#include "../include/video.h"
+#include "../include/commands.h"
 
 uint8_t PROMPT_COLOR = Video::vga_color(static_cast<uint8_t>(graphics::Color::LIGHT_CYAN), static_cast<uint8_t>(graphics::Color::BLACK));
-uint8_t TEXT_COLOR = Video::vga_color(static_cast<uint8_t>(graphics::Color::LIGHT_GREEN), static_cast<uint8_t>(graphics::Color::BLACK));
-uint8_t HEADER_COLOR = Video::vga_color(static_cast<uint8_t>(graphics::Color::YELLOW), static_cast<uint8_t>(graphics::Color::BLACK));
 
 void Shell::run() 
 {
@@ -29,7 +17,7 @@ void Shell::run()
         int len = read_input(command, sizeof(command));
         if (len > 0) 
         {
-            execute_command(command);
+            Commands::execute(command);  // Используем Commands класс
         }
     }
 }
@@ -45,7 +33,10 @@ int Shell::read_input(char* buffer, int max_len)
 
     while (true) 
     {
-        char c = Keyboard::getchar();
+        uint8_t scancode = Keyboard::getchar();
+        char c = Keyboard::scancode_to_ascii(scancode);  // Конвертируем в ASCII
+        
+        if (c == 0) continue;  // Игнорируем неизвестные коды
         
         if (c == '\n') 
         {
@@ -73,20 +64,5 @@ int Shell::read_input(char* buffer, int max_len)
 
 void Shell::execute_command(const char* command) 
 {
-    if (string_compare(command, "help") == 0) 
-    {
-        Video::print("Available commands: help, clear, about\n", TEXT_COLOR);
-    }
-    else if (string_compare(command, "clear") == 0) 
-    {
-        Video::clear();
-    }
-    else if (string_compare(command, "about") == 0) 
-    {
-        Video::print("Athena OS - A simple operating system\n", TEXT_COLOR);
-    }
-    else 
-    {
-        Video::print("Unknown command. Type 'help' for help.\n", TEXT_COLOR);
-    }
+    Commands::execute(command);  // Делегируем Commands классу
 }

@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/run"
-  "athena.img"
-  "boot.bin"
-  "kernel.bin"
 )
 
 # Per-language clean rules from dependency scanning.

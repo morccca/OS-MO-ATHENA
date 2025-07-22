@@ -1,4 +1,4 @@
-#include "ports.h"
+#include "../include/ports.h"
 
 // Чтение байта из порта
 uint8_t Ports::inb(uint16_t port) 
@@ -13,3 +13,26 @@ void Ports::outb(uint16_t port, uint8_t val)
 {
     asm volatile("outb %0, %1" : : "a"(val), "Nd"(port));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

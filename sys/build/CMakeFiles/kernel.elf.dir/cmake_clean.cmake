@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj"
-  "CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj.d"
   "CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj"
   "CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj.d"
   "CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj"
@@ -11,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj.d"
   "CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj"
   "CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj.d"
-  "kernel.elf.exe"
-  "kernel.elf.exe.manifest"
+  "kernel.elf"
+  "kernel.elf.manifest"
   "kernel.elf.pdb"
   "libkernel.elf.dll.a"
 )

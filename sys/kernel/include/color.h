@@ -3,10 +3,11 @@
 typedef unsigned char uint8_t;
 typedef unsigned long size_t;
 
-static constexpr uint8_t HEADER_COLOR = 0x0E; 
-static constexpr uint8_t TEXT_COLOR = 0x0A;   
-static constexpr uint8_t ERROR_COLOR = 0x0C;  
-static constexpr uint8_t DEFAULT_COLOR = TEXT_COLOR;
+// Изменяемые глобальные цвета (объявления)
+extern uint8_t HEADER_COLOR;
+extern uint8_t TEXT_COLOR;
+extern uint8_t ERROR_COLOR;
+extern uint8_t DEFAULT_COLOR;
 
 namespace graphics
 {

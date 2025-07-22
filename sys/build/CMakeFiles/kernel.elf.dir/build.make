@@ -76,95 +76,79 @@ CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj: CMakeFiles/kernel.elf.dir/inc
 CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj: E:/pr_CPP/oc/sys/kernel/src/main.cpp
 CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj: CMakeFiles/kernel.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\main.cpp
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\main.cpp
 
 CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.i"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\main.cpp > CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\main.cpp > CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.i
 
 CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.s"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\main.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.s
-
-CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj: CMakeFiles/kernel.elf.dir/flags.make
-CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj: CMakeFiles/kernel.elf.dir/includes_CXX.rsp
-CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj: E:/pr_CPP/oc/sys/kernel/src/commands.cpp
-CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj: CMakeFiles/kernel.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\commands.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\commands.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\commands.cpp
-
-CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.i"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\commands.cpp > CMakeFiles\kernel.elf.dir\kernel\src\commands.cpp.i
-
-CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.s"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\commands.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\commands.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\main.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\main.cpp.s
 
 CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj: CMakeFiles/kernel.elf.dir/flags.make
 CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj: CMakeFiles/kernel.elf.dir/includes_CXX.rsp
 CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj: E:/pr_CPP/oc/sys/kernel/src/video.cpp
 CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj: CMakeFiles/kernel.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\video.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\video.cpp
 
 CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.i"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\video.cpp > CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\video.cpp > CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.i
 
 CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.s"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\video.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\video.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\video.cpp.s
 
 CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj: CMakeFiles/kernel.elf.dir/flags.make
 CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj: CMakeFiles/kernel.elf.dir/includes_CXX.rsp
 CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj: E:/pr_CPP/oc/sys/kernel/src/shell.cpp
 CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj: CMakeFiles/kernel.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\shell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\shell.cpp
 
 CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.i"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\shell.cpp > CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\shell.cpp > CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.i
 
 CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.s"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\shell.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\shell.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\shell.cpp.s
 
 CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj: CMakeFiles/kernel.elf.dir/flags.make
 CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj: CMakeFiles/kernel.elf.dir/includes_CXX.rsp
 CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj: E:/pr_CPP/oc/sys/kernel/src/ports.cpp
 CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj: CMakeFiles/kernel.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\ports.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\ports.cpp
 
 CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.i"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\ports.cpp > CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\ports.cpp > CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.i
 
 CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.s"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\ports.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\ports.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\ports.cpp.s
 
 CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj: CMakeFiles/kernel.elf.dir/flags.make
 CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj: CMakeFiles/kernel.elf.dir/includes_CXX.rsp
 CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj: E:/pr_CPP/oc/sys/kernel/src/keyboard.cpp
 CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj: CMakeFiles/kernel.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj -MF CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.obj.d -o CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.obj -c E:\pr_CPP\oc\sys\kernel\src\keyboard.cpp
 
 CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.i"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\keyboard.cpp > CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\pr_CPP\oc\sys\kernel\src\keyboard.cpp > CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.i
 
 CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.s"
-	E:\comp\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\keyboard.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\pr_CPP\oc\sys\kernel\src\keyboard.cpp -o CMakeFiles\kernel.elf.dir\kernel\src\keyboard.cpp.s
 
 # Object files for target kernel.elf
 kernel_elf_OBJECTS = \
 "CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj" \
-"CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj" \
 "CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj" \
 "CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj" \
 "CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj" \
@@ -173,21 +157,21 @@ kernel_elf_OBJECTS = \
 # External object files for target kernel.elf
 kernel_elf_EXTERNAL_OBJECTS =
 
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/build.make
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/linkLibs.rsp
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/objects1.rsp
-kernel.elf.exe: CMakeFiles/kernel.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable kernel.elf.exe"
+kernel.elf: CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj
+kernel.elf: CMakeFiles/kernel.elf.dir/kernel/src/video.cpp.obj
+kernel.elf: CMakeFiles/kernel.elf.dir/kernel/src/shell.cpp.obj
+kernel.elf: CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj
+kernel.elf: CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj
+kernel.elf: CMakeFiles/kernel.elf.dir/build.make
+kernel.elf: boot.o
+kernel.elf: CMakeFiles/kernel.elf.dir/linkLibs.rsp
+kernel.elf: CMakeFiles/kernel.elf.dir/objects1.rsp
+kernel.elf: CMakeFiles/kernel.elf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable kernel.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\kernel.elf.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/kernel.elf.dir/build: kernel.elf.exe
+CMakeFiles/kernel.elf.dir/build: kernel.elf
 .PHONY : CMakeFiles/kernel.elf.dir/build
 
 CMakeFiles/kernel.elf.dir/clean:
