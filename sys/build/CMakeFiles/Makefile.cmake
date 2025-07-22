@@ -8,13 +8,10 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "E:/pr_CPP/oc/sys/CMakeLists.txt"
-  "CMakeFiles/4.0.0-rc3/CMakeASM_NASMCompiler.cmake"
   "CMakeFiles/4.0.0-rc3/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.0-rc3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.0-rc3/CMakeRCCompiler.cmake"
   "CMakeFiles/4.0.0-rc3/CMakeSystem.cmake"
-  "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeASMInformation.cmake"
-  "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeASM_NASMInformation.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeCInformation.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake"
@@ -28,8 +25,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/sistem/cmake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/Compiler/GNU.cmake"
-  "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake"
-  "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeASM_NASMLinkerInformation.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "E:/sistem/cmake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -65,8 +60,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/kernel.elf.dir/DependInfo.cmake"
-  "CMakeFiles/athena.dir/DependInfo.cmake"
-  "CMakeFiles/clean-all.dir/DependInfo.cmake"
+  "CMakeFiles/boot_asm.dir/DependInfo.cmake"
   "CMakeFiles/run.dir/DependInfo.cmake"
-  "CMakeFiles/debug.dir/DependInfo.cmake"
   )

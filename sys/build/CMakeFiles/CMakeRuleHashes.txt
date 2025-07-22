@@ -1,8 +1,5 @@
 # Hashes of file build rules.
-16a71e4b29dfe49cb739d757eb8c5836 CMakeFiles/athena
-7a322199a750d79ab32ab00a06ce3b7e CMakeFiles/clean-all
-e7a15692e02a56d0d1d0f26304d62592 CMakeFiles/debug
-3d3983ed9e0210d17374dc2597c24947 CMakeFiles/run
-80f68fd5a761f063fa7b480c95f084b3 athena.img
-d35fc3a2f1c089f2e1392fc0c3ae3abf boot.bin
-f1745bd8a76ebdf11d75486ce69b8a4e kernel.bin
+16a71e4b29dfe49cb739d757eb8c5836 CMakeFiles/boot_asm
+ed6be73dde51c230f0222ed2225b2108 CMakeFiles/run
+c648256c189e76a34ca0adff8e2d303c boot.o
+9f20180b70b757761a0d6417921ce055 kernel.elf

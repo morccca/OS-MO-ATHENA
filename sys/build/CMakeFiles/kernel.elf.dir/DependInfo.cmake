@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/pr_CPP/oc/sys/kernel/src/commands.cpp" "CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj" "gcc" "CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj.d"
   "E:/pr_CPP/oc/sys/kernel/src/keyboard.cpp" "CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj" "gcc" "CMakeFiles/kernel.elf.dir/kernel/src/keyboard.cpp.obj.d"
   "E:/pr_CPP/oc/sys/kernel/src/main.cpp" "CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj" "gcc" "CMakeFiles/kernel.elf.dir/kernel/src/main.cpp.obj.d"
   "E:/pr_CPP/oc/sys/kernel/src/ports.cpp" "CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj" "gcc" "CMakeFiles/kernel.elf.dir/kernel/src/ports.cpp.obj.d"

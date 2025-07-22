@@ -1,4 +1,4 @@
-#include "video.h"
+#include "../include/video.h"
 
 #define WIDTH 80
 #define HEIGHT 25
@@ -8,7 +8,7 @@ uint16_t* const Video::buffer = reinterpret_cast<uint16_t*>(0xB8000);
 size_t Video::cursor_x = 0;
 size_t Video::cursor_y = 0;
 
-uint8_t Video::current_color = DEFAULT_COLOR;
+uint8_t Video::current_color = Video::DEFAULT_COLOR;
 
 void Video::initialize() 
 {

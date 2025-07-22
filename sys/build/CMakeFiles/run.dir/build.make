@@ -65,32 +65,14 @@ include CMakeFiles/run.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/run.dir/progress.make
 
-CMakeFiles/run: athena.img
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running Athena OS in QEMU"
-	qemu-system-i386 -fda E:/pr_CPP/oc/sys/build/athena.img
-
-athena.img: boot.bin
-athena.img: kernel.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Creating OS image"
-	dd if=/dev/zero of=E:/pr_CPP/oc/sys/build/athena.img bs=1024 count=1440
-	dd if=E:/pr_CPP/oc/sys/build/boot.bin of=E:/pr_CPP/oc/sys/build/athena.img conv=notrunc
-	dd if=E:/pr_CPP/oc/sys/build/kernel.bin of=E:/pr_CPP/oc/sys/build/athena.img bs=512 seek=1 conv=notrunc
-
-boot.bin: E:/pr_CPP/oc/sys/sys/boot/simple_boot.asm
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building bootloader"
-	E:\comp\usr\bin\nasm.exe -f bin E:/pr_CPP/oc/sys/sys/boot/simple_boot.asm -o E:/pr_CPP/oc/sys/build/boot.bin
-
-kernel.bin: kernel.elf.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Converting kernel to binary"
-	E:\comp\mingw64\bin\gcc.exe-objcopy -O binary E:/pr_CPP/oc/sys/build/kernel.elf E:/pr_CPP/oc/sys/build/kernel.bin
+CMakeFiles/run: kernel.elf
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running AthenaOS in QEMU"
+	qemu-system-i386 -kernel kernel.elf
 
 CMakeFiles/run.dir/codegen:
 .PHONY : CMakeFiles/run.dir/codegen
 
 run: CMakeFiles/run
-run: athena.img
-run: boot.bin
-run: kernel.bin
 run: CMakeFiles/run.dir/build.make
 .PHONY : run
 

@@ -129,30 +129,17 @@ kernel.elf/fast:
 .PHONY : kernel.elf/fast
 
 #=============================================================================
-# Target rules for targets named athena
+# Target rules for targets named boot_asm
 
 # Build rule for target.
-athena: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 athena
-.PHONY : athena
+boot_asm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boot_asm
+.PHONY : boot_asm
 
 # fast build rule for target.
-athena/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\athena.dir\build.make CMakeFiles/athena.dir/build
-.PHONY : athena/fast
-
-#=============================================================================
-# Target rules for targets named clean-all
-
-# Build rule for target.
-clean-all: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean-all
-.PHONY : clean-all
-
-# fast build rule for target.
-clean-all/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clean-all.dir\build.make CMakeFiles/clean-all.dir/build
-.PHONY : clean-all/fast
+boot_asm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\boot_asm.dir\build.make CMakeFiles/boot_asm.dir/build
+.PHONY : boot_asm/fast
 
 #=============================================================================
 # Target rules for targets named run
@@ -166,43 +153,6 @@ run: cmake_check_build_system
 run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
-
-#=============================================================================
-# Target rules for targets named debug
-
-# Build rule for target.
-debug: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 debug
-.PHONY : debug
-
-# fast build rule for target.
-debug/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/build
-.PHONY : debug/fast
-
-kernel/src/commands.obj: kernel/src/commands.cpp.obj
-.PHONY : kernel/src/commands.obj
-
-# target to build an object file
-kernel/src/commands.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kernel.elf.dir\build.make CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.obj
-.PHONY : kernel/src/commands.cpp.obj
-
-kernel/src/commands.i: kernel/src/commands.cpp.i
-.PHONY : kernel/src/commands.i
-
-# target to preprocess a source file
-kernel/src/commands.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kernel.elf.dir\build.make CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.i
-.PHONY : kernel/src/commands.cpp.i
-
-kernel/src/commands.s: kernel/src/commands.cpp.s
-.PHONY : kernel/src/commands.s
-
-# target to generate assembly for a file
-kernel/src/commands.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kernel.elf.dir\build.make CMakeFiles/kernel.elf.dir/kernel/src/commands.cpp.s
-.PHONY : kernel/src/commands.cpp.s
 
 kernel/src/keyboard.obj: kernel/src/keyboard.cpp.obj
 .PHONY : kernel/src/keyboard.obj
@@ -332,14 +282,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... athena
-	@echo ... clean-all
-	@echo ... debug
+	@echo ... boot_asm
 	@echo ... run
 	@echo ... kernel.elf
-	@echo ... kernel/src/commands.obj
-	@echo ... kernel/src/commands.i
-	@echo ... kernel/src/commands.s
 	@echo ... kernel/src/keyboard.obj
 	@echo ... kernel/src/keyboard.i
 	@echo ... kernel/src/keyboard.s

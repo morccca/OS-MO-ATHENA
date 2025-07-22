@@ -66,7 +66,9 @@ include CMakeFiles/clean-all.dir/compiler_depend.make
 include CMakeFiles/clean-all.dir/progress.make
 
 CMakeFiles/clean-all:
-	E:\sistem\cmake\bin\cmake.exe -E remove -f E:/pr_CPP/oc/sys/build/boot.bin E:/pr_CPP/oc/sys/build/kernel.bin E:/pr_CPP/oc/sys/build/kernel.elf E:/pr_CPP/oc/sys/build/athena.img E:/pr_CPP/oc/sys/build/entry.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\pr_CPP\oc\sys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning all generated files"
+	E:\sistem\cmake\bin\cmake.exe -E remove -f kernel.elf kernel.bin athena.iso
+	E:\sistem\cmake\bin\cmake.exe -E remove_directory E:/pr_CPP/oc/sys/build/iso
 
 CMakeFiles/clean-all.dir/codegen:
 .PHONY : CMakeFiles/clean-all.dir/codegen
